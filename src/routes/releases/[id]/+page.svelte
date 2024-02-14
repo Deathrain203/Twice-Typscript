@@ -4,6 +4,9 @@
     import Audio from '$lib/Audio.svelte'
     export let data
 </script>
+<svelte:head>
+    <title>{data.post.name}</title>
+</svelte:head>
 
 <Header />
 <div class = "mainPage">

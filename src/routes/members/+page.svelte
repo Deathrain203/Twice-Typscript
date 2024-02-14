@@ -4,7 +4,9 @@
     export let data
     
 </script>
-
+<svelte:head>
+    <title>Members</title>
+</svelte:head>
 <Header />
 <div class = "Hero">
 <h1>Members</h1>
