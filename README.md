@@ -36,3 +36,46 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+TWICE DATABASE
+
+
+Requirements:
+MUST use Typescript. 
+MUST have an authentication system.
+MUST have a database (obviously lul).
+MUST implement a like/dislike system.
+MUST include their songs/albums, and a way to play them. 
+
+
+
+Front-end:
+Language: Typescript
+Framework: Svelte
+Format: Prettier
+
+
+Back-end:
+Framework: Sveltekit
+Web socket: None needed.
+Spotify API
+Database: MongoDB, Backblaze B2 for image hosting
+Auth: Lucia, Oslo.
+
+Dependencies:
+MongoDB for the database driver
+Mongoose for database interaction
+Lucia-auth
+Oslo
+
+
+
+
+Deploy: 
+Platform: Vercel
+
+
+Notes:
+I am a huge ONCE
+This app brings an auth system, type checking with typescript, database operations, and so much more
+To run the app, have your env file loaded with a backblaze application key, application key ID, have your spotify key, and secret and a mongodb uri
